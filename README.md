@@ -1,5 +1,5 @@
 # UniBotV1
-O UniBotV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquidez diretamente pelos comtrados da Uniswap.
+O UniBotV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquidez diretamente pelos contrados WEB3 da Uniswap.
 
 O robô possui acesso as redes: Polygon e Arbitrum.
 
