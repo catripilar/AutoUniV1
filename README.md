@@ -5,18 +5,16 @@
        | |_| | | | | | |_) | (_) | |_    \ V /   | |
         \___/|_| |_|_|____/ \___/ \__|    \_/    |_|
 
-O UniBotV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquidez diretamente pelos contrados WEB3 da Uniswap nas redes Etherium Polygon Arbitrum e Optimism.
+O UniBotV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquidez diretamente pelos contrados WEB3 da Uniswap nas redes:
+Etherium Polygon Arbitrum e Optimism.
 
-O robô possui acesso as redes: Polygon e Arbitrum.
+DESCONTO DE LANÇAMENTO!!
+1- Plano STARTER de  $10.00  por  $6.00  (USDT,USDC,DAI) que da acesso a 30 DIAS de uso livre de todas as suas funcionalidades e automação via telegram.
 
-Existem 3 planos para ultilizar o robô:
+2- Plano PROFIT de  $20.00  por  $14.00  (USDT,USDC,DAI) que da acesso a 3 MESES de uso livre de todas as suas funcionalidades e automação via telegram.
 
-1- "Starter" custando $6.00 (USDT,USDC,DAI) que da acesso a 30 DIAS de uso livre de todas as suas funcionalidades.
-
-2- "Profit" custando $14.00 (USDT,USDC,DAI) que da acesso a 3 MESES de uso livre de todas as suas funcionalidades.
-
-3- "Master" custando $60.00 (USDT,USDC,DAI) que da acesso a 1 ANO de uso livre de todas as suas funcionalidades
-e beneficios a carteiras que pagaram esse plano em projetos futuros..
+3- Plano MASTER de  $80.00  por  $60.00  (USDT,USDC,DAI) que da acesso a 1 ANO de uso livre de todas as suas funcionalidades e automação via telegram 
+além de beneficios a carteiras que pagaram esse plano em projetos futuros..
 
 O pagamento pode ser realizado em qualquer uma das redes mencionadas e apos sua transação ser confirmada copie e cole seu TX HASH para liberar o uso da carteira que realizou o pagamento para a seguinte carteira:
 
