@@ -20,8 +20,8 @@ O pagamento pode ser realizado em qualquer uma das redes mencionadas e apos sua 
 
 0x190de641ee2ab0b99057bc082b82711a9eff97b1
 
---LINK DOWNLOAD WINDOWS 64bit--
+|--LINK DOWNLOAD WINDOWS 64bit--|   
 https://github.com/catripilar/UniBotV1/blob/main/Download/UniBotV1Windows.zip
 
---LINK DOWNLOAD LINUX 64bit-- 
+|--LINK DOWNLOAD LINUX 64bit--|   
 https://github.com/catripilar/UniBotV1/blob/main/Download/UniBotV1Linux.zip
