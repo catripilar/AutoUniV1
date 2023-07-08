@@ -1,4 +1,10 @@
 # UniBotV1
+        _   _       _ ____        _    __     __  _ 
+       | | | |_ __ (_) __ )  ___ | |_  \ \   / / / |
+       | | | | '_ \| |  _ \ / _ \| __|  \ \ / /  | |
+       | |_| | | | | | |_) | (_) | |_    \ V /   | |
+        \___/|_| |_|_|____/ \___/ \__|    \_/    |_|
+
 O UniBotV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquidez diretamente pelos contrados WEB3 da Uniswap nas redes Etherium Polygon Arbitrum e Optimism.
 
 O robô possui acesso as redes: Polygon e Arbitrum.
