@@ -23,7 +23,7 @@ O pagamento pode ser realizado em qualquer uma das redes mencionadas e apos sua 
 (Para realizar o download clique no icone do canto superior direito da página ou em "View raw")
 
 |--LINK DOWNLOAD WINDOWS 64bit--|   
-https://github.com/catripilar/UniBotV1/blob/main/Download/UniBotV1Windows.zip
+https://github.com/catripilar/UniBotV1/blob/main/Download/UniBotWindowsV1.zip
 
 |--LINK DOWNLOAD LINUX 64bit--|   
-https://github.com/catripilar/UniBotV1/blob/main/Download/UniBotV1Linux.zip
+https://github.com/catripilar/UniBotV1/blob/main/Download/UniBotLinuxV1.zip
