@@ -10,16 +10,24 @@ Etherium Polygon Arbitrum e Optimism.
 
 DESCONTO DE LANÇAMENTO!!
 
-1- Plano STARTER de  $10.00  por  $6.00  (USDT,USDC,DAI) que da acesso a 30 DIAS de uso livre de todas as suas funcionalidades e automação via telegram.
+1- Plano STARTER de  $10.00  por  $6.00  (USDT,USDC,DAI) que dá acesso a 30 DIAS de uso livre de todas as suas funcionalidades e automação via telegram.
 
-2- Plano PROFIT de  $20.00  por  $14.00  (USDT,USDC,DAI) que da acesso a 3 MESES de uso livre de todas as suas funcionalidades e automação via telegram.
+2- Plano PROFIT de  $20.00  por  $14.00  (USDT,USDC,DAI) que dá acesso a 3 MESES de uso livre de todas as suas funcionalidades e automação via telegram.
 
-3- Plano MASTER de  $80.00  por  $60.00  (USDT,USDC,DAI) que da acesso a 1 ANO de uso livre de todas as suas funcionalidades e automação via telegram 
-além de beneficios a carteiras que pagaram esse plano em projetos futuros..
+3- Plano MASTER de  $80.00  por  $60.00  (USDT,USDC,DAI) que dá acesso a 1 ANO de uso livre de todas as suas funcionalidades e automação via telegram 
+além de benefícios a carteiras que pagaram esse plano em projetos futuros..
 
-O pagamento pode ser realizado em qualquer uma das redes mencionadas e apos sua transação ser confirmada copie e cole seu TX HASH para liberar o uso da carteira que realizou o pagamento para a seguinte carteira:
+O pagamento pode ser realizado em qualquer uma das redes mencionadas e após sua transação ser confirmada copie e cole seu TX HASH quando for perguntado "Digite seu Transaction Hash com o pagamento do plano:" para liberar o uso da carteira que realizou o pagamento para a seguinte carteira:
 
 0x0B54b1d53cd135E34eFF1B8c3874e6a3d522FAf6
+
+É necessário que se crie uma carteira on-chain como a metamask para que o robô automatize ,e não esquecer de preencher os dados no arquivo | info.json |:
+
+"key":"<SUA CHAVE PRIVADA>"
+"telegram_id": <NUMERO ID DO TELEGRAM>
+"telegram_token": "<TOKEN BOT FATHER TELEGRAM>"
+
+(NÃO NOS RESPONSABILIZAMOS POR QUALQUER INVESTIMENTO OU PERDA FINANCEIRA POR SUAS AÇÕES)
 
 |--DOWNLOAD WINDOWS 64bit ABAIXO--|   
 https://github.com/catripilar/UniBotV1/raw/main/Download/UniBotWindowsV1.zip
