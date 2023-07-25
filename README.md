@@ -23,9 +23,9 @@ O pagamento pode ser realizado em qualquer uma das redes mencionadas e após sua
 
 É necessário que se crie uma carteira on-chain como a metamask para que o robô automatize ,e não esquecer de preencher os dados no arquivo | info.json |:
 
-"key":"<SUA CHAVE PRIVADA>"
-"telegram_id": <NUMERO ID DO TELEGRAM>
-"telegram_token": "<TOKEN BOT FATHER TELEGRAM>"
+"key":"SUA CHAVE PRIVADA"
+"telegram_id": NUMERO ID DO TELEGRAM
+"telegram_token": "TOKEN BOT FATHER TELEGRAM"
 
 (NÃO NOS RESPONSABILIZAMOS POR QUALQUER INVESTIMENTO OU PERDA FINANCEIRA POR SUAS AÇÕES)
 
