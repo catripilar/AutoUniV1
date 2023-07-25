@@ -18,7 +18,7 @@ além de beneficios a carteiras que pagaram esse plano em projetos futuros..
 
 O pagamento pode ser realizado em qualquer uma das redes mencionadas e apos sua transação ser confirmada copie e cole seu TX HASH para liberar o uso da carteira que realizou o pagamento para a seguinte carteira:
 
-0x190de641ee2ab0b99057bc082b82711a9eff97b1
+0x0B54b1d53cd135E34eFF1B8c3874e6a3d522FAf6
 
 |--DOWNLOAD WINDOWS 64bit ABAIXO--|   
 https://github.com/catripilar/UniBotV1/raw/main/Download/UniBotWindowsV1.zip
