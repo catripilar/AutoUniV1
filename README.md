@@ -9,6 +9,7 @@ O UniBotV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquide
 Etherium Polygon Arbitrum e Optimism.
 
 DESCONTO DE LANÇAMENTO!!
+
 1- Plano STARTER de  $10.00  por  $6.00  (USDT,USDC,DAI) que da acesso a 30 DIAS de uso livre de todas as suas funcionalidades e automação via telegram.
 
 2- Plano PROFIT de  $20.00  por  $14.00  (USDT,USDC,DAI) que da acesso a 3 MESES de uso livre de todas as suas funcionalidades e automação via telegram.
