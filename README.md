@@ -5,6 +5,7 @@
        | |_| | | | | | |_) | (_) | |_    \ V /   | |
         \___/|_| |_|_|____/ \___/ \__|    \_/    |_|
 
+
 O UniBotV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquidez diretamente pelos contrados WEB3 da Uniswap nas redes:
 Etherium Polygon Arbitrum e Optimism.
 
@@ -31,8 +32,8 @@ O pagamento pode ser realizado em qualquer uma das redes mencionadas e após sua
 
 (NÃO NOS RESPONSABILIZAMOS POR QUALQUER INVESTIMENTO OU PERDA FINANCEIRA POR SUAS AÇÕES)
 
-|--DOWNLOAD WINDOWS 64bit ABAIXO--|   
+|--DOWNLOAD WINDOWS 64bit--|   
 https://github.com/catripilar/UniBotV1/raw/main/Download/UniBotWindowsV1.zip
 
-|--DOWNLOAD LINUX 64bit ABAIXO--|   
+|--DOWNLOAD LINUX 64bit--|   
 https://github.com/catripilar/UniBotV1/raw/main/Download/UniBotLinuxV1.zip
