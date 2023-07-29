@@ -22,7 +22,7 @@ O pagamento pode ser realizado em qualquer uma das redes mencionadas e após sua
 
 0x0B54b1d53cd135E34eFF1B8c3874e6a3d522FAf6
 
-(NÃO NOS RESPONSABILIZAMOS POR QUALQUER INVESTIMENTO OU PERDA FINANCEIRA POR SUAS AÇÕES)
+(NÃO NOS RESPONSABILIZAMOS POR QUALQUER PERDA FINANCEIRA POR SUAS AÇÕES)
 
 |--DOWNLOAD WINDOWS 64bit--|   
 https://github.com/catripilar/UniBotV1/raw/main/Download/UniBotWindowsV1.zip
