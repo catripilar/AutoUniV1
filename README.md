@@ -18,7 +18,7 @@ DESCONTO DE LANÇAMENTO!!
 3- Plano MASTER de  $80.00  por  $60.00  (USDT,USDC,DAI) que dá acesso a 1 ANO de uso livre de todas as suas funcionalidades e automação via telegram 
 além de benefícios a carteiras que pagaram esse plano em projetos futuros..
 
-O pagamento pode ser realizado em qualquer uma das redes mencionadas e após sua transação ser confirmada copie e cole seu TX HASH quando for perguntado "Digite seu Transaction Hash com o pagamento do plano:" para liberar o uso da carteira que realizou o pagamento para a seguinte carteira:
+O pagamento pode ser realizado em qualquer uma das redes mencionadas e após sua transação ser confirmada copie e cole seu TX HASH quando for perguntado "Digite seu Transaction Hash com o pagamento do plano:" para liberar o uso da carteira que realizou o pagamento para o seguinte endereço:
 
 0x0B54b1d53cd135E34eFF1B8c3874e6a3d522FAf6
 
