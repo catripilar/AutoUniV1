@@ -1,12 +1,11 @@
-# UniBotV1
-        _   _       _ ____        _    __     __  _ 
-       | | | |_ __ (_) __ )  ___ | |_  \ \   / / / |
-       | | | | '_ \| |  _ \ / _ \| __|  \ \ / /  | |
-       | |_| | | | | | |_) | (_) | |_    \ V /   | |
-        \___/|_| |_|_|____/ \___/ \__|    \_/    |_|
+# AutoUni V1
+    _         _        _   _       _  __     ___ 
+   / \  _   _| |_ ___ | | | |_ __ (_) \ \   / / |
+  / _ \| | | | __/ _ \| | | | '_ \| |  \ \ / /| |
+ / ___ \ |_| | || (_) | |_| | | | | |   \ V / | |
+/_/   \_\__,_|\__\___/ \___/|_| |_|_|    \_/  |_|
 
-
-O UniBotV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquidez diretamente pelos contrados WEB3 da Uniswap nas redes:
+O AutoUniV1 tem a capacidade de agendar trocas e stop-loss de piscinas de liquidez diretamente pelos contrados WEB3 da Uniswap nas redes:
 Etherium Polygon Arbitrum e Optimism.
 
 DESCONTO DE LANÇAMENTO!!
