@@ -19,7 +19,7 @@ O pagamento pode ser realizado em qualquer uma das redes mencionadas e após sua
 (NÃO NOS RESPONSABILIZAMOS POR QUALQUER PERDA FINANCEIRA POR SUAS AÇÕES)
 
 |--DOWNLOAD WINDOWS 64bit--|   
-https://github.com/catripilar/UniBotV1/raw/main/Download/UniBotWindowsV1.zip
+https://github.com/catripilar/UniBotV1/raw/main/Download/AutoUniWindowsV1.zip
 
 |--DOWNLOAD LINUX 64bit--|   
-https://github.com/catripilar/UniBotV1/raw/main/Download/UniBotLinuxV1.zip
+https://github.com/catripilar/UniBotV1/raw/main/Download/AutoUniLinuxV1.zip
