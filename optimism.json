@@ -1,0 +1,46 @@
+{
+  "agenda": [],
+  "contantes": {
+    "factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+    "gwei": 4000000000000000,
+    "porcentagem": 2,
+    "tempo": 1,
+    "uni_pool": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+    "uni_router": "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+  },
+  "contratos": [
+    "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+    "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+    "0xFdb794692724153d1488CcdBE0C56c252596735F",
+    "0x4200000000000000000000000000000000000006",
+    "0x4200000000000000000000000000000000000042"
+  ],
+  "diatual": 8,
+  "geral": [
+    "{\"name\":\"USDT\",\"price\":\"1.00000000\",\"balance\":\"0.000000\",\"USDT\":\"0x94b008aa00579c1307b0ef2c499ad98a8ce58e58\",\"decimal\":\"6\"}",
+    "{\"name\":\"USDC\",\"price\":\"1.00010000\",\"balance\":\"0.000000\",\"USDC\":\"0x7f5c764cbc14f9669b88837ca1490cca17c31607\",\"decimal\":\"6\"}",
+    "{\"name\":\"WBTC\",\"price\":\"26588.16200621\",\"balance\":\"0.00000000\",\"WBTC\":\"0x68f180fcce6836688e9084f035309e29bf0a2095\",\"decimal\":\"8\"}",
+    "{\"name\":\"DAI\",\"price\":\".99982413\",\"balance\":\"0.000000000000000000\",\"DAI\":\"0xda10009cbd5d07dd0cecc66161fc93d7c9000da1\",\"decimal\":\"18\"}",
+    "{\"name\":\"LINK\",\"price\":\"7.07621000\",\"balance\":\"0.000000000000000000\",\"LINK\":\"0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6\",\"decimal\":\"18\"}",
+    "{\"name\":\"LDO\",\"price\":\"1.48928000\",\"balance\":\"0.000000000000000000\",\"LDO\":\"0xfdb794692724153d1488ccdbe0c56c252596735f\",\"decimal\":\"18\"}",
+    "{\"name\":\"WETH\",\"price\":\"1594.80107490\",\"balance\":\"0.000000000000000000\",\"WETH\":\"0x4200000000000000000000000000000000000006\",\"decimal\":\"18\"}",
+    "{\"name\":\"OP\",\"price\":\"1.30323985\",\"balance\":\"0.000000000000000000\",\"OP\":\"0x4200000000000000000000000000000000000042\",\"decimal\":\"18\"}"
+  ],
+  "operacao": 0,
+  "oracles": [
+    "0xECef79E109e997bCA29c1c0897ec9d7b03647F5E",
+    "0x16a9FA2FDa030272Ce99B29CF780dFA30361E0f3",
+    "0xD702DD976Fb76Fffc2D3963D037dfDae5b04E593",
+    "0x8dBa75e83DA73cc766A7e5a0ee71F656BAb470d6",
+    "0xCc232dcFAAE6354cE191Bd574108c1aD03f86450",
+    "0x221618871470f78D8a3391d35B77dFb3C0fbc383",
+    "0x13e3Ee699D1909E989722E753853AE30b17e08c5",
+    "0x0D276FC14719f9292D5C1eA2198673d1f4269246"
+  ],
+  "rcp": "https://rpc.ankr.com/optimism",
+  "rede_tx": 0,
+  "tx_hash": ""
+}
