@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image" href="UB_logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>AutoUni V1</title>
+</head>
+<body>
+    <div class="container">
+      <h3>Escolha a Rede:</h3>
+      <div class="botao" onclick="rede('etherium')">Ethereum</div>
+      <div class="botao" onclick="rede('polygon')">Polygon</div>
+      <div class="botao" onclick="rede('arbitrum')">Arbitrum</div>
+      <div class="botao" onclick="rede('optimism')">Optimism</div>
+
+      <h3>Adicionar novo Token ERC-20 à rede selecionada:</h3>
+      <p>Acesse a <a id="cont_desc" href="">Rede..</a> e pesquise pelo nome do contrato ex: "WETH" </p>
+      <input type="text" id="new_cont" placeholder="Cole seu contrato ERC-20 aqui.."/>
+      <p>Acesse o <a id="orac_desc" href="">Oráculo..</a> e pesquise o contrato pelo campo ao clicar Ctrl+f</p>
+      <input type="text" id="new_oracle" placeholder="Cole seu contrato da Chainlink aqui.."/>
+      <div class="botao" onclick="addcont()">Salvar</div>
+      <p id="cont_infos"></p>
+
+      <h3>Transações agendadas:</h3>
+      <div id="cardContainer"></div>
+
+      <h3>Ação a ser agendada:</h3>
+      <div class="botao" onclick="showContent('swapContent')">Troca</div>
+      <div class="botao" onclick="showContent('poolContent')">Pool Stop-loss</div>
+
+      <div id="poolContent" class="content" data-info="stop">
+          <h3>ID da sua Piscina de liquidez:</h3>
+          <input type="text" id="numberInput" onkeypress="return isNumber(event)" />
+          <div class="botao" onclick="sendData()">Enviar</div>
+          <p id="Poolpair"></p>
+          <label for="newLiquidity">Porcentagem a ser retirada:</label>
+          <input class="slider" value="100" type="range" id="PoolLiquidity" min="1" max="100" step="1">
+          <p id="PoolValue">100%</p>
+      </div>
+
+      <div id="swapContent" class="content" data-info="swap">
+            <p id="liqtrade"></p>
+            <div class="botao" onclick="par_view()">Liquidez da troca</div>
+          
+            <label for="ownedCoins">Moeda a ser trocada:</label>
+            <select id="ownedCoinsSelect"></select>
+
+            <label for="newLiquidity">Selecionar quantia ($USD):</label>
+            <input type="text" id="newLiquidity" onkeypress="return isNumber(event)">
+            <p id="liquidityValue"></p>
+      </div>
+      <div style="display: none;" id="sendinfos">
+          <label for="otherCoins">Moeda a ser recebida:</label>
+          <select id="otherCoins"></select>
+          <h3>Escolha com base em períodos:</h3>
+          <select id="durationSelector" onchange="updateDurationText()">
+            <option value="days">Dias</option>
+            <option value="weeks">Semanas</option>
+          </select>
+          <input class="slider" value="1" type="range" id="DCA" min="1" max="60" step="1">
+          <p id="DCAdays"></p>
+          <div class="botao" id="dy" data-info="dca" onclick="agendar(this)">Agendar por Dias</div>
+          <div class="botao" id="wk" data-info="dcawk" onclick="agendar(this)" style="display: none;">Agendar por Semanas</div>
+          <h3>Escolha com base no Preço:</h3>
+          <label for="allCoins">Moeda de lastro:</label>
+          <p style="font-size: 10px;">(É possivel se basear em qualquer moeda no campo de seleção para realizar a ação acima).</p>
+          <select id="allCoins"></select>
+          <input class="slider" value="0" type="range" id="pricepct" min="-100" max="100" step="1">
+          <p class="pviw" id="pricepctvalue">Realizar quando o preço estiver a +0% do Atual</p>
+          <div class="botao" data-info="price" onclick="agendar(this)">Agendar por Preço</div>
+      </div>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>
