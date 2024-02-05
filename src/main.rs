@@ -200,29 +200,6 @@ async fn sistema(){
         sistems(1,70).await;
         sistems(2,70).await;
         sistems(3,70).await;
-        /*let dates = Utc::now();
-        let hora:u32  = dates.hour();
-        if hora == 0 && trocadia == true{
-            unsafe{DIAS  = DIAS - 1}
-            let status = format!("Um dia se passou restam {} dias do seu plano",unsafe{DIAS});
-            if unsafe{TKEY.clone()} != "" && unsafe{TID} != ChatId(0) && unsafe{SOLO} == true{
-                let bot = Bot::new(unsafe{TKEY.clone()});
-                let mensagem = bot.send_message(unsafe{TID}, &status).await;
-                match mensagem {
-                    Ok(_) =>{},Err(e) =>println!("Mensagem não enviada {e}")
-                }
-            }
-            println!("{}",status);
-            trocadia = false; 
-        }else if hora != 0 && trocadia == false{
-            trocadia = true;
-        }
-        if unsafe{DIAS > 0}{
-            sistems(0,70).await;
-            sistems(1,70).await;
-            sistems(2,70).await;
-            sistems(3,70).await;
-        }else{println!("Seu plano espirou.. \n Realize o pagamento conforme as diretrizes da pagina: https://github.com/catripilar/UniBotV1");break;}*/
     }
 }
 #[derive(Deserialize)]
@@ -635,98 +612,6 @@ async fn main() {
             () = t1 => println!("task one completed first"),
             () = t2 => println!("task two completed first"),
         }
-        /*if txent == ""{
-            let mut input = String::new();
-            println!(r#"
-Iniciar carteira:
-
-1- Envie tokens nativos para a/as redes desejadas onde as futuras transações serão realizadas.
-
-2- Realize o pagamento da assinatura escolhida pela carteira que será automatizada.
-            "#);
-            println!("Digite seu Transaction Hash com o pagamento do plano:");
-            std::io::stdin().read_line(&mut input).expect("Falha ao ler a entrada");
-            txent = input.trim().to_string();
-        }
-        for i in 0..unsafe{LINKS.len()}{
-            let provedor0 = provedor(unsafe{&KEY},unsafe{&LINKS[nun]});
-            let provider = provedor0.await;
-            match provider {
-                Ok(provider0) =>{
-                    let addrs = txent.parse::<TxHash>();
-                    match addrs {
-                        Ok(_) =>{},
-                        Err(_) =>{println!("Tx Hash escrito de forma errada.");break;}
-                    }
-                    let tt = get_erc20_transfer_info(&provider0,addrs.unwrap()).await;
-                    match tt {
-                        Ok((from,to,contractaddr,balance,unix)) =>{
-                            if to == "0x0B54b1d53cd135E34eFF1B8c3874e6a3d522FAf6".parse().unwrap() &&
-                            permit_arbitrum.contains(&contractaddr) || permit_polygon.contains(&contractaddr)
-                            || permit_etherium.contains(&contractaddr) || permit_optimism.contains(&contractaddr){
-                                //                                                              \/aquiii\/
-                                if from == provider0.address(){unsafe{SOLO = true}}else{unsafe{SOLO = true}}
-                                let days = get_days_difference(unix);
-                                let mut syb = "".to_string();let mut dec:u8 = 0;
-                                loop {
-                                    let balnn = balancofull(contractaddr, &provider0).await;
-                                    match balnn {
-                                        Ok((s,_,_,d)) =>{
-                                            syb = s;dec = d;
-                                            break;
-                                        },Err(_) =>{}
-                                    }
-                                }
-                                let res = extract_digits(balance, dec);
-                                let (resposta,pago,dias) = promos(res,days);
-                                let file:&str = unsafe{REDES[nun]};
-                                let mut jsons = {
-                                    let text = std::fs::read_to_string(&file).unwrap();
-                                    serde_json::from_str::<Value>(&text).unwrap()
-                                };
-                                let tx_pagamento: String = serde_json::from_str(&jsons["tx_hash"].to_string()).unwrap();
-                                let jsonsff = {
-                                    let text = std::fs::read_to_string(&"info.json").unwrap();
-                                    serde_json::from_str::<Value>(&text).unwrap()
-                                };
-                                let porta: u16 = serde_json::from_str(&jsonsff["porta"].to_string()).unwrap();
-                                if tx_pagamento != ""{
-                                    println!("\n Bem vindo de volta!")
-                                }else{
-                                    jsons["tx_hash"] = serde_json::from_str::<serde_json::Value>(&format!("{:?}",txent).as_str()).unwrap();
-                                    jsons["rede_tx"] = serde_json::from_str::<serde_json::Value>(&format!("{:?}",nun).as_str()).unwrap();
-                                    std::fs::write(
-                                        &file,
-                                        serde_json::to_string_pretty(&jsons).unwrap(),
-                                    ).unwrap();
-                                }
-                                if pago == true{
-                                    unsafe{DIAS = dias}
-                                    println!("Pagamento realizado com {} na rede {}!",syb,unsafe{REDES[nun].replace(".json", "")});
-                                    println!("acesse: http://localhost:{porta}/ \n");
-                                }else{
-                                    jsons["tx_hash"] = serde_json::from_str::<serde_json::Value>(&format!("{:?}","").as_str()).unwrap();
-                                    jsons["rede_tx"] = serde_json::from_str::<serde_json::Value>(&format!("{:?}",0).as_str()).unwrap();
-                                    std::fs::write(&file,serde_json::to_string_pretty(&jsons).unwrap(),).unwrap();
-                                    println!("\n{}",resposta);
-                                    break;
-                                }
-                                println!("\n{}",resposta);
-                                let t1 = server().fuse();
-                                let t2 = sistema().fuse();
-                                pin_mut!(t1, t2);
-                                select! {
-                                    () = t1 => println!("task one completed first"),
-                                    () = t2 => println!("task two completed first"),
-                                }
-                                break;
-                            }else{println!("Carteira incorreta.");thread::sleep(Duration::from_secs(2));}
-                        },Err(_) =>{println!("Pagamento não realizado na rede {}..",unsafe{REDES[i].replace(".json", "")});thread::sleep(Duration::from_secs(5));}
-                    }
-                    nun = i+1;
-                },Err(_) =>println!("Erro conecção")
-            }
-        }*/
     }
 }
 async fn simple_swap(esse:Address,paraesse:Address,router:Address,quantia:U256,factory:Address,tempo:u64,gwei:U256,
